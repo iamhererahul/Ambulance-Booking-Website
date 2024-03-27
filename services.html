@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Family Schemes & Ambulance Management</title>
+  <style>
+    body {
+      font-family: 'Times New Roman';
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    section {
+      margin: 20px;
+    }
+    h2 {
+      color: #333;
+    }
+    .scheme {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    button {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .price{
+      width: 20px;
+      height: 20px;
+      
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Medicare Schemes & Ambulance Management</h1>
+   
+  </header>
+
+  <section>
+    <div><h2>Medicare Schemes</h2>
+    
+    </div>
+    
+    
+    <div class="scheme">
+      <h3>Health Insurance Coverage (HIC) Scheme</h3>
+      <p>This scheme provides health insurance coverage to eligible family members.Partner with health insurance providers to offer discounted or subsidized health insurance plans specifically tailored for low-income families. This can include coverage for ambulance services as part of the package.
+
+      </p>
+    </div>
+    <div class="scheme">
+      <h3>Health Education and Awareness Campaigns (HEAC) Scheme</h3>
+     
+      <p>Utilize the ambulance management system to disseminate health education materials and raise awareness about preventive healthcare measures within impoverished communities. Empower families with knowledge to take better care of their health and utilize available healthcare services effectively.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Ambulance Management</h2>
+    <p>Avail ambulance services for 99/- rupees per family having annual income less than 5lakh</p>
+    <button onclick="availAmbulance()">Avail Ambulance Service</button>
+    <p id="message"></p>
+  </section>
+
+  <script>
+    function availAmbulance() {
+      document.getElementById("message").innerText = "Ambulance service availed successfully for 99 rupees.";
+    }
+  </script>
+</body>
+</html>

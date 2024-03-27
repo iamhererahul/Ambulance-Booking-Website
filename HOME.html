@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Book Ambulance-Ambucare</title>
+    <link rel="stylesheet" href="HOME.css">
+</head>
+
+<body>
+
+
+        <nav class="top">
+            <div class="navbar">
+                <div class="icon">
+                    <h2 class="logo">AmbuCare</h2>
+                </div>
+    
+                <div class="menu">
+                    <ul>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="scheme.html">SCHEME</a></li>
+                        <li><a href="aboutus.html">ABOUT</a></li>
+                        <li><a href="contactus.html">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="content">
+           
+            
+            <form action="booking.php" method="post" class="booking-form">
+                <h2>   Emergency Booking</h2><br><br>
+                <div class="form-group">
+                    <label for="patient-name">Name:</label>
+                    <input type="text" id="patient-name" name="patient_name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone-number">Phone Number:</label>
+                    <input type="tel" id="phone-number" name="phone_number" pattern="[0-9]{10}" required>
+                </div>
+                <div class="form-group">
+                    <label for="pickup-location">Pick-up Location:</label>
+                    <input type="text" id="pickup-location" name="pickup_location" required>
+                </div>
+                <div class="form-group">
+                    <label for="aadhar-pan-number">Aadhar Number:</label>
+                    <input type="text" id="aadhar-pan-number" name="aadhar_number" required>
+                </div>
+                <button type="submit">Book Ambulance</button>
+            </form>
+            
+        </div>
+        
+
+    
+    
+    <script src="HOME.js"></script>
+
+</body>
+
+</html>

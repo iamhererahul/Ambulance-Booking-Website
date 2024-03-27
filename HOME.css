@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(images/background-home.jpg);
+    background-size: cover;
+    font-family: 'Times New Roman';
+    background-position: 100%;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.top{
+    background-color: white;
+    color: #000;
+}
+
+
+.navbar {
+    background-color: white;
+     color: black;
+    
+    margin: auto;
+  
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 60px;
+}
+
+.logo {
+    text-shadow: 0 0 1px black;
+    color: black;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu {
+    width: 400px;
+    float: right;
+    height: 70px;
+    color: black;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20%;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: #00ccff;
+}
+
+.content {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: black;
+    position: relative;
+    padding-top: -33%;
+}
+
+.icons a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons ion-icon {
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+
+.icons ion-icon:hover {
+    color: #00d0ff;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.content {
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    padding-left: 15%;
+
+}
+
+form {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 0 0 5px black;
+    
+}
+.booking-form{
+    background: transparent;
+    backdrop-filter: blur(50%);
+}
